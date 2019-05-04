@@ -39,7 +39,6 @@ sorted_new_array.each do |inner_array|
     temp_array << alphabet_hash.key(element)
     end
   end
-
   joined_transposed_string = temp_array.join
   transposed_array << joined_transposed_string
 end
